@@ -13,11 +13,12 @@ L'API du leaderboard est accessible sur https://leaderboard.lp1.eu/api.
 Deux routes sont mises à votre disposition :
 
 *GET https://leaderboard.lp1.eu/api/json* : Permet de récupérer le leaderboard au format JSON
-*GET https://leaderboard.lp1.eu/api/<name>/<score>/<time>* : Permet d'ajouter un score et un temps au leaderboard
+
+*GET https://leaderboard.lp1.eu/api/{name}/{score}/{time}* : Permet d'ajouter un score et un temps au leaderboard
 
 ## 2048
 
-    Vous pouvez, si vous le souhaitez utiliser le fichier Board.js fourni afin de ne pas perdre de temps sur l'implémentation de la logique du jeu. Il exporte une instance de la classe Board contenant des méthodes implémentant ce dont vous avez besoin pour mettre en place le jeu.
+Vous pouvez, si vous le souhaitez utiliser le fichier Board.js fourni afin de ne pas perdre de temps sur l'implémentation de la logique du jeu. Il exporte une instance de la classe Board contenant des méthodes implémentant ce dont vous avez besoin pour mettre en place le jeu.
 
 ## Board.js
 
