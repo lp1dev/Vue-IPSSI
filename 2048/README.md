@@ -14,7 +14,7 @@ Deux routes sont mises à votre disposition :
 
 *GET https://leaderboard.lp1.eu/api/json* : Permet de récupérer le leaderboard au format JSON
 
-*GET https://leaderboard.lp1.eu/api/{name}/{score}/{time}* : Permet d'ajouter un score et un temps au leaderboard
+*GET https://leaderboard.lp1.eu/api/{nickname}/{score}/{time}* : Permet d'ajouter un score et un temps au leaderboard
 
 # Board.js
 
