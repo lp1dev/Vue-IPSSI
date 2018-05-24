@@ -197,9 +197,7 @@ class Board {
           this.squares[x][y] = 0
           this.hasMoved = true
         } else {
-            if (this.addSquaresIfNeeded(x, y, x + 1, y)) {
-                x--
-            }
+          this.addSquaresIfNeeded(x, y, x + 1, y)
         }
         x++
       }
